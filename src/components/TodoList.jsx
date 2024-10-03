@@ -1,6 +1,10 @@
 import React from 'react'
 
 const TodoList = ({todos, setTodos}) => {
+
+  const handleDelete=({id}) => {
+    setTodos(todos.filter((todo) => todo.id !== id))
+  }
   return (
     <div>
         {todos.map((todo) =>(
