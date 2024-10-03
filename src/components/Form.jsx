@@ -39,7 +39,9 @@ if (!editTodo) {
 value={input}
  onChange={onInputChange}
  required />  
-<button className="button-add" type="submit">Add</button>
+<button className="button-add" type="submit">
+    {editTodo ? "OK" : "Add"}
+    </button>
 
 
  </form>
