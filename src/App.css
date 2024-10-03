@@ -3,8 +3,9 @@
    padding: 0;
 }
 
-.containter{
-   background-color: linear-gradient(to right bottom, #e1b382, #c89666);
+.container{
+   /* background-color: linear-gradient(to right bottom, #e1b382, #c89666); */
+   background-color: #c89665;
    width: 100%;
    min-height: 100vh;
    display: flex;
@@ -15,7 +16,7 @@
 .app-wrapper {
    background-color: #12343b;
    min-width: 450px;
-   min-height: 650px;
+   min-height: 580px;
    padding: 30px;
    box-sizing: border-box;
    border-radius: 10px;
@@ -52,7 +53,7 @@
    cursor: pointer;
 }
 
-.list-item {
+.todo-list{
    display: flex;
    margin: 20px 0;
    border: 1px solid #ccc;
