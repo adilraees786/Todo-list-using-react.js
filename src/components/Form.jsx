@@ -40,7 +40,7 @@ value={input}
  onChange={onInputChange}
  required />  
 <button className="button-add" type="submit">
-    {editTodo ? "OK" : "Add"}
+    {editTodo ? "Add" : "Add"}
     </button>
 
 
