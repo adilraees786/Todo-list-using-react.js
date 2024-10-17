@@ -94,12 +94,10 @@
    opacity: 0.6;
 }
 
-.btns {
-   width: 100px;
-}
+
 
 .list{
-   /* width: fit-content; */
+   
    min-width: 40%;
    background-color: #12343b;
    border: none;
